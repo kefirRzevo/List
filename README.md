@@ -11,7 +11,7 @@ Everything you need to test my list, is just copying these next strings to your 
 For usage:
 
 ```
-git clone https://github.com/kefirRzevo/List_c++.git
+git clone https://github.com/kefirRzevo/List_c_plus_plus.git
 cd List
 make
 ```
