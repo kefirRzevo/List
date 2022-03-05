@@ -1,0 +1,29 @@
+digraph G 
+{
+	graph[rankdir = LR]
+	node[shape = box, fontsize = 8]
+
+	subgraph cluster1
+	{
+		margin = 0
+		label  = 1
+		Node0x6000006a5160[shape = record, label = "item: 13 | <n>next: 0x6000006a5120 | <p>prev: 0x0"]
+	}
+		Node0x6000006a5160:n -> Node0x6000006a5120:n[color = "red"]
+
+	subgraph cluster2
+	{
+		margin = 0
+		label  = 2
+		Node0x6000006a5120[shape = record, label = "item: 10 | <n>next: 0x6000006a5140 | <p>prev: 0x6000006a5160"]
+	}
+		Node0x6000006a5120:n -> Node0x6000006a5140:n[color = "red"]
+
+	subgraph cluster3
+	{
+		margin = 0
+		label  = 3
+		Node0x6000006a5140[shape = record, label = "item: 20 | <n>next: 0x0 | <p>prev: 0x6000006a5120"]
+	}
+
+}
