@@ -12,7 +12,7 @@ For usage:
 
 ```
 git clone https://github.com/kefirRzevo/List_c_plus_plus.git
-cd List
+cd List_c_plus_plus.git
 make
 ```
 # List
