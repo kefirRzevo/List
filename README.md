@@ -2,17 +2,16 @@
 
 ## Introduction
 
-This is a repository for my list. 
+This my version of data sructure - list. 
 
 ## How to use
 
-Everything you need to test my list, is just copying these next strings to your terminal/console.
+You can view functions in "list.h" file and call them in "main.cpp" (see example).
 
 For usage:
 
 ```
-git clone https://github.com/kefirRzevo/List_c_plus_plus.git
-cd List_c_plus_plus
+git clone https://github.com/kefirRzevo/List.git
+cd List
 make
 ```
-# List
